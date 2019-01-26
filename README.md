@@ -2,7 +2,7 @@
     TrackM
     <small>&mdash; Live Map for FiveM</small>
 </h1>
-TrackM is a entity tracking live map for FiveM game servers.
+TrackM is an entity tracking live map for FiveM game servers.
 
 **NOTE: There are two parts to a TrackM server: the FiveM script and the web interface. This repository only contains the FiveM script.**
 
