@@ -13,7 +13,7 @@ TrackM is a entity tracking live map for FiveM game servers.
 * Redis 2.8+ server
 
 ### From a Release Build
-* From the [releases]() page download the latest zip or tar.gz file.
+* From the [releases](https://github.com/randomsean/TrackM/releases) page download the latest zip or tar.gz file.
 * Unzip or untar the file to your server `releases` directory.
 * Add `start trackm` to you `server.cfg` file.
 * See [Configuration](#Configuration) for further set up.
@@ -22,6 +22,7 @@ TrackM is a entity tracking live map for FiveM game servers.
 
 ### Convars
 The following settings can be set in the `server.cfg` file:
+
 | Name                        | Type     | Default          | Comments                                                                                         |
 | --------------------------- | -------- | ---------------- | ------------------------------------------------------------------------------------------------ |
 | `trackm_redis_addr`         | `string` | `127.0.0.1:6379` | Redis server hostname and port                                                                   |
@@ -77,10 +78,12 @@ The following metadata keys have special functionality on the web interface and 
 | `name` | `string` | Any valid UTF-8 string                  |
 | `icon` | `string` | `vehicle`, `ped`, `unknown`             |
 | `pos`  | `string` | A position vector in the form `[x],[y]` |
+
 **NOTE: These keys cannot be deleted; only set.**
 
 ## Dependencies
 TrackM uses the following open source libraries:
+
 | Dependency                                | License      |
 | ----------------------------------------- | ------------ |
 | [Sider](https://github.com/chakrit/sider) | BSD-3-Clause |
